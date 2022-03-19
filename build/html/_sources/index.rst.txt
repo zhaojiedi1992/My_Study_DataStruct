@@ -1,20 +1,18 @@
-.. My_Study_DataStruct documentation master file, created by
-   sphinx-quickstart on Sat Mar 19 18:45:05 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+################################################
+My_Study_DataStruct
+################################################
 
-Welcome to My_Study_DataStruct's documentation!
-===============================================
+我自己对数据结构文档的学习笔记
+
+
+github地址_
+
+.. _github地址: https://github.com/zhaojiedi1992/My_Study_DataStruct
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :caption: 数据结构
+    :numbered:
+    :glob:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    基础/index
+    
