@@ -2,3 +2,36 @@
 线性表
 ==========================================
 
+什么是线性表
+==========================================
+线性表是由同类型的数据元素够坦诚有序序列的线性结构。
+
+.. code-block:: text 
+
+    # 抽象结构描述
+
+    类型名称： List 
+    数据对象集： 线性表是n个元素构成的有序序列（a1,a2,....an)
+    操作集： 
+        List MakeEmpty(): 初始化一个空线性表。
+        ElementType FindKth(int K ,List L): 根据位序返回对应元素。
+        int Find(ElementType X,List L): 查找X第一次出现的位序号。
+        void Insert(ElementType X,int i,List L): 在位序前插入一个元素。
+        void Delete(int i ,List L): 删除指定位序的元素。
+        int Length(List L): 返回线性表L的长度n。
+
+线性表连续具体实现
+==========================================
+
+.. literalinclude:: ../code/list_base.c
+   :encoding: utf-8
+   :language: c
+   :linenos:
+
+线性表链式具体实现
+==========================================
+
+.. literalinclude:: ../code/link_base.c
+   :encoding: utf-8
+   :language: c
+   :linenos:
