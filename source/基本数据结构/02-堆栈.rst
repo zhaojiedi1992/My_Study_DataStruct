@@ -1,0 +1,32 @@
+==========================================
+栈
+==========================================
+
+具有一定操作约束的线性表。 只在一端做插入和删除操作。 这一端被称为栈顶，插入称为入栈，
+删除称为出栈。
+
+抽象数据结构描述
+
+.. code-block:: text 
+
+    Stack CreateStack (int MaxSize): 生成空堆栈，最大长度maxsize . 
+    int    IsFull （Stack s , int maxsize) : 判断是否已经满了。
+    void Push(Stack s,ElementType item): 插入元素。
+    void IsEmpty(Stack s): 判断是否为空栈，也就是一个元素没有。
+    ElementType Pop(Stack s): 从栈里面删除最顶部元素，并返回该元素。
+
+栈的顺序存储具体实现
+==========================================
+
+.. literalinclude:: ../code/stack_list_base.c
+   :encoding: utf-8
+   :language: c
+   :linenos:
+
+栈的链式存储具体实现
+==========================================
+
+.. literalinclude:: ../code/stack_link_base.c
+   :encoding: utf-8
+   :language: c
+   :linenos:

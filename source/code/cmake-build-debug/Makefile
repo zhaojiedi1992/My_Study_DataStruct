@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-link_base.o: link_base.c.o
+stack_link_base.o: stack_link_base.c.o
 
-.PHONY : link_base.o
+.PHONY : stack_link_base.o
 
 # target to build an object file
-link_base.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/link_base.c.o
-.PHONY : link_base.c.o
+stack_link_base.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/stack_link_base.c.o
+.PHONY : stack_link_base.c.o
 
-link_base.i: link_base.c.i
+stack_link_base.i: stack_link_base.c.i
 
-.PHONY : link_base.i
+.PHONY : stack_link_base.i
 
 # target to preprocess a source file
-link_base.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/link_base.c.i
-.PHONY : link_base.c.i
+stack_link_base.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/stack_link_base.c.i
+.PHONY : stack_link_base.c.i
 
-link_base.s: link_base.c.s
+stack_link_base.s: stack_link_base.c.s
 
-.PHONY : link_base.s
+.PHONY : stack_link_base.s
 
 # target to generate assembly for a file
-link_base.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/link_base.c.s
-.PHONY : link_base.c.s
+stack_link_base.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/stack_link_base.c.s
+.PHONY : stack_link_base.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... link_base.o"
-	@echo "... link_base.i"
-	@echo "... link_base.s"
+	@echo "... stack_link_base.o"
+	@echo "... stack_link_base.i"
+	@echo "... stack_link_base.s"
 .PHONY : help
 
 
