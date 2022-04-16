@@ -2,3 +2,31 @@
 队列
 ==========================================
 
+具有一定操作约束的线性表。 只在一端(队尾)做插入,在另一端(队头)删除操作。 
+
+抽象数据结构描述
+
+.. code-block:: text 
+
+    Queue CreateQueue(): 生成一个容量为maxsize 的空队列。
+    int IsFullQ(Queue q,int maxsize): 判断队列是否满了。
+    void AddQ(Queue q,ElementType item): 将元素item插入队列。
+    int IsEmptyQ(Queue q): 判断队列是否为空。
+    ElementType DeleteQ(Queue q): 将队头数据从队列删除并返回。
+
+队列的顺序存储具体实现
+==========================================
+
+.. literalinclude:: ../code/queue_list_base.c
+   :encoding: utf-8
+   :language: c
+   :linenos:
+
+
+队列的顺序存储具体实现
+==========================================
+
+.. literalinclude:: ../code/queue_link_base.c
+   :encoding: utf-8
+   :language: c
+   :linenos:

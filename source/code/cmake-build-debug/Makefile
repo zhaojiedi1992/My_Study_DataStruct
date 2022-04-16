@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-stack_link_base.o: stack_link_base.c.o
+queue_link_base.o: queue_link_base.c.o
 
-.PHONY : stack_link_base.o
+.PHONY : queue_link_base.o
 
 # target to build an object file
-stack_link_base.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/stack_link_base.c.o
-.PHONY : stack_link_base.c.o
+queue_link_base.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/queue_link_base.c.o
+.PHONY : queue_link_base.c.o
 
-stack_link_base.i: stack_link_base.c.i
+queue_link_base.i: queue_link_base.c.i
 
-.PHONY : stack_link_base.i
+.PHONY : queue_link_base.i
 
 # target to preprocess a source file
-stack_link_base.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/stack_link_base.c.i
-.PHONY : stack_link_base.c.i
+queue_link_base.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/queue_link_base.c.i
+.PHONY : queue_link_base.c.i
 
-stack_link_base.s: stack_link_base.c.s
+queue_link_base.s: queue_link_base.c.s
 
-.PHONY : stack_link_base.s
+.PHONY : queue_link_base.s
 
 # target to generate assembly for a file
-stack_link_base.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/stack_link_base.c.s
-.PHONY : stack_link_base.c.s
+queue_link_base.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/queue_link_base.c.s
+.PHONY : queue_link_base.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... stack_link_base.o"
-	@echo "... stack_link_base.i"
-	@echo "... stack_link_base.s"
+	@echo "... queue_link_base.o"
+	@echo "... queue_link_base.i"
+	@echo "... queue_link_base.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/stack_link_base.c" "/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/cmake-build-debug/CMakeFiles/code.dir/stack_link_base.c.o"
+  "/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/queue_link_base.c" "/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/cmake-build-debug/CMakeFiles/code.dir/queue_link_base.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
