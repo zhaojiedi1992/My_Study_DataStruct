@@ -4,9 +4,9 @@
 
 本文参考: 
 
-:download: `二叉搜索树 <../ppt/4.1 二叉搜索树.pdf>`
+:download:`二叉搜索树 <../ppt/4.1 二叉搜索树.pdf>`
 
-:download: `平衡二叉树 <../ppt/4.2 平衡二叉树.pdf>`
+:download:`平衡二叉树 <../ppt/4.2 平衡二叉树.pdf>`
 
 
 二叉搜索树
