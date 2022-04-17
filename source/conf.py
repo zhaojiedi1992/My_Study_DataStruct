@@ -39,10 +39,10 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode',
+   # 'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx_sitemap',
-    'sphinx-copybutton',
+   # 'sphinx-copybutton',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
