@@ -37,3 +37,16 @@
    :encoding: utf-8
    :language: c
    :linenos:
+
+平衡二叉树（AVL)
+==========================================
+平衡因子绝对值小于等于1的搜索树才是平衡二叉树。
+
+平衡因子= 左树高度-右树高度。 
+
+平衡二叉树实现
+==========================================
+.. literalinclude:: ../code/avl_tree.c
+   :encoding: utf-8
+   :language: c
+   :linenos:

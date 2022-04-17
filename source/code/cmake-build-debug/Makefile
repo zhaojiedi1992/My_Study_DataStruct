@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-bstree_link_base.o: bstree_link_base.c.o
+avl_tree.o: avl_tree.c.o
 
-.PHONY : bstree_link_base.o
+.PHONY : avl_tree.o
 
 # target to build an object file
-bstree_link_base.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bstree_link_base.c.o
-.PHONY : bstree_link_base.c.o
+avl_tree.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/avl_tree.c.o
+.PHONY : avl_tree.c.o
 
-bstree_link_base.i: bstree_link_base.c.i
+avl_tree.i: avl_tree.c.i
 
-.PHONY : bstree_link_base.i
+.PHONY : avl_tree.i
 
 # target to preprocess a source file
-bstree_link_base.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bstree_link_base.c.i
-.PHONY : bstree_link_base.c.i
+avl_tree.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/avl_tree.c.i
+.PHONY : avl_tree.c.i
 
-bstree_link_base.s: bstree_link_base.c.s
+avl_tree.s: avl_tree.c.s
 
-.PHONY : bstree_link_base.s
+.PHONY : avl_tree.s
 
 # target to generate assembly for a file
-bstree_link_base.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bstree_link_base.c.s
-.PHONY : bstree_link_base.c.s
+avl_tree.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/avl_tree.c.s
+.PHONY : avl_tree.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... bstree_link_base.o"
-	@echo "... bstree_link_base.i"
-	@echo "... bstree_link_base.s"
+	@echo "... avl_tree.o"
+	@echo "... avl_tree.i"
+	@echo "... avl_tree.s"
 .PHONY : help
 
 
