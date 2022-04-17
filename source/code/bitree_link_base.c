@@ -1,10 +1,11 @@
-
+// bitree_link_base.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack_link_base_for_tree.c"
 #include "queue_link_base_for_tree.c"
 
 
+// 判断树是否为空
 int TreeIsEmpty(BsTree bt){
     if( bt == NULL){
         return 1 ;
@@ -12,11 +13,13 @@ int TreeIsEmpty(BsTree bt){
     return 0;
 }
 
+// 创建树
 BsTree CreateBsTree(){
     BsTree  bt = (BsTree)malloc(sizeof(struct TreeNode));
     return bt ;
 }
 
+// 前序递归
 void PreOrderTraversalByRecursive(BsTree bt){
     if (bt){
         printf("%d ", bt->Data);
@@ -24,6 +27,8 @@ void PreOrderTraversalByRecursive(BsTree bt){
         PreOrderTraversalByRecursive(bt->Right);
     }
 }
+
+// 中续递归
 void InOrderTraversalByRecursive(BsTree bt){
     if (bt){
         InOrderTraversalByRecursive(bt->Left);
@@ -31,6 +36,8 @@ void InOrderTraversalByRecursive(BsTree bt){
         InOrderTraversalByRecursive(bt->Right);
     }
 }
+
+// 后续递归
 void PosOrderTraversalByRecursive(BsTree bt){
     if (bt){
         PosOrderTraversalByRecursive(bt->Left);
@@ -39,6 +46,7 @@ void PosOrderTraversalByRecursive(BsTree bt){
     }
 }
 
+// 前序迭代
 void PreOrderTraversalByIterate(BsTree bt){
     Stack s = CreateStack();
     BsTree  t = bt;
@@ -54,6 +62,8 @@ void PreOrderTraversalByIterate(BsTree bt){
         }
     }
 }
+
+// 中序迭代
 void InOrderTraversalByIterate(BsTree bt){
     Stack s = CreateStack();
     BsTree  t = bt;
@@ -70,6 +80,7 @@ void InOrderTraversalByIterate(BsTree bt){
     }
 }
 
+// 后序迭代
 void PostOrderTraversalByIterate(BsTree bt){
     Stack s = CreateStack();
     BsTree  t = bt;
@@ -92,6 +103,9 @@ void PostOrderTraversalByIterate(BsTree bt){
 
     }
 }
+
+
+// 层次遍历
 void LevelOrderTraversal(BsTree bt){
 
     Queue  q = CreateQueue();
@@ -116,9 +130,9 @@ void LevelOrderTraversal(BsTree bt){
 }
 BsTree CreateDemoTree(){
     /*
-           1
-         2    3
-       5  4  6
+            1
+         2      3
+       5   4   6
 
 
     * */
