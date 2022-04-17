@@ -5,6 +5,7 @@
 
 #define ElementType int
 typedef struct  TreeNode *BsTree ;
+typedef BsTree  Position ;
 struct  TreeNode{
     ElementType Data ;
     BsTree  Left;

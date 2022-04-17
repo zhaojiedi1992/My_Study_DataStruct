@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "stack_link_base_for_tree.c"
 #include "queue_link_base_for_tree.c"
-
+#include "bitree_link_base.h"
 
 // 判断树是否为空
 int TreeIsEmpty(BsTree bt){

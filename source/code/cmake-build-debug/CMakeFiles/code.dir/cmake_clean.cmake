@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/code.dir/bitree_link_base.c.o"
+  "CMakeFiles/code.dir/bstree_link_base.c.o"
   "code"
   "code.pdb"
 )

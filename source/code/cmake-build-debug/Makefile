@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-bitree_link_base.o: bitree_link_base.c.o
+bstree_link_base.o: bstree_link_base.c.o
 
-.PHONY : bitree_link_base.o
+.PHONY : bstree_link_base.o
 
 # target to build an object file
-bitree_link_base.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bitree_link_base.c.o
-.PHONY : bitree_link_base.c.o
+bstree_link_base.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bstree_link_base.c.o
+.PHONY : bstree_link_base.c.o
 
-bitree_link_base.i: bitree_link_base.c.i
+bstree_link_base.i: bstree_link_base.c.i
 
-.PHONY : bitree_link_base.i
+.PHONY : bstree_link_base.i
 
 # target to preprocess a source file
-bitree_link_base.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bitree_link_base.c.i
-.PHONY : bitree_link_base.c.i
+bstree_link_base.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bstree_link_base.c.i
+.PHONY : bstree_link_base.c.i
 
-bitree_link_base.s: bitree_link_base.c.s
+bstree_link_base.s: bstree_link_base.c.s
 
-.PHONY : bitree_link_base.s
+.PHONY : bstree_link_base.s
 
 # target to generate assembly for a file
-bitree_link_base.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bitree_link_base.c.s
-.PHONY : bitree_link_base.c.s
+bstree_link_base.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bstree_link_base.c.s
+.PHONY : bstree_link_base.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... bitree_link_base.o"
-	@echo "... bitree_link_base.i"
-	@echo "... bitree_link_base.s"
+	@echo "... bstree_link_base.o"
+	@echo "... bstree_link_base.i"
+	@echo "... bstree_link_base.s"
 .PHONY : help
 
 
