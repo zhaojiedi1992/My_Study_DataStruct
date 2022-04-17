@@ -70,7 +70,7 @@
    :language: c
    :linenos:
 
-二叉树顺序存储实现
+二叉树链式存储实现
 ==========================================
 
 .. literalinclude:: ../code/bitree_link_base.h

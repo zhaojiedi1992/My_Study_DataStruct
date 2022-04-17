@@ -131,9 +131,9 @@ BsTree DeleteByRecursive(ElementType item, BsTree bst) {
         bst->Left = DeleteByRecursive(item,bst->Left);
     }else{
         // 左节点为空的删除
-        if (bst->Left == NULL ){
+        if (!bst->Left  ){
             bst = bst->Right;
-        }else if (bst->Right ==NULL){   // 右节点为空。
+        }else if (!bst->Right){   // 右节点为空。
             bst = bst->Left ;
         }else{
             // 左右都有的。
