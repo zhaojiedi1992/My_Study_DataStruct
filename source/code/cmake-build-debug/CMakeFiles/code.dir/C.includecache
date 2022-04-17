@@ -6,9 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/queue_link_base.c
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/bitree_link_base.c
 stdio.h
 -
 stdlib.h
 -
+stack_link_base_for_tree.c
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/stack_link_base_for_tree.c
+queue_link_base_for_tree.c
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/queue_link_base_for_tree.c
+
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/bitree_link_base.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/queue_link_base_for_tree.c
+stdio.h
+-
+stdlib.h
+-
+bitree_link_base.h
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/bitree_link_base.h
+
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/stack_link_base_for_tree.c
+stdio.h
+-
+stdlib.h
+-
+bitree_link_base.h
+/Users/bytedance/github/zhaojiedi1992/My_Study_DataStruct/source/code/bitree_link_base.h
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAXSIZE 5
+#define MAXSIZE 100
 #define ElementType int
 #define ERROR    -9999
 

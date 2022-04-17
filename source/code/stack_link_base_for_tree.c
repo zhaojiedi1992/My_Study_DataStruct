@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ElementType int
+#include "bitree_link_base.h"
+#define StackElementType BsTree
 #define ERROR    -9999
 typedef  struct  SNode *Stack ;
 struct  SNode {
-    ElementType Data;
+    StackElementType Data;
     struct  SNode *Next ;
 };
 
@@ -15,7 +16,7 @@ Stack CreateStack() {
     return s ;
 }
 
-void  Push(Stack s, ElementType item) {
+void  Push(Stack s, StackElementType item) {
     struct SNode *tmpNode;
     tmpNode = (struct SNode *)malloc(sizeof(struct SNode)) ;
     tmpNode->Data = item ;
@@ -29,13 +30,14 @@ int StackIsEmpty(Stack s){
     return 0 ;
 }
 
-ElementType Pop(Stack s) {
+StackElementType Pop(Stack s) {
     if (StackIsEmpty(s)==1){
         printf("null \n") ;
-        return ERROR;
+
+        return NULL;
     }
     struct SNode *firstNode;
-    ElementType itemValue ;
+    StackElementType itemValue ;
     firstNode = s->Next ;
     s->Next = firstNode->Next;
     itemValue = firstNode->Data;
@@ -43,29 +45,3 @@ ElementType Pop(Stack s) {
     return itemValue;
 }
 
-int main2() {
-    Stack s = CreateStack();
-    ElementType item ;
-    printf("is empty ? %d\n",StackIsEmpty(s));
-    Push(s,1);
-    Push(s,2);
-    Push(s,3);
-    Push(s,4);
-
-    item = Pop(s) ;
-    printf("%d\n",item  );
-    item = Pop(s) ;
-    printf("%d\n",item  );
-    item = Pop(s) ;
-    printf("%d\n",item  );
-    item = Pop(s) ;
-    printf("%d\n",item  );
-    item = Pop(s) ;
-    printf("%d\n",item  );
-
-    return 0;
-    /*
-
-
-     */
-}
