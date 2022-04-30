@@ -1,0 +1,30 @@
+==========================================
+堆
+==========================================
+
+- 任一节点的关键字是其子树所有节点的最大值 是最大堆
+- 任一节点的关键字是其子树所有节点的最小值 是最小堆
+
+
+抽象数据结构描述
+
+.. code-block:: text 
+
+    类型名称： 大顶堆
+    数据对象集： 完全二叉树
+    操作集： 
+
+        MapHeap Creat (int max_size): 创建一个空的最大堆。
+        Boolean IsFull( MaxHeap H): 判断最大堆是否已经满了。
+        Insert  （MaxHep H): 将元素插入。
+        IsEmpty(MaxHeap H): 判断最大堆是否为空。
+        ElementType DeleteMax( MaxHeap H): 删除最大元素。
+
+
+堆顺序存储实现
+==========================================
+
+.. literalinclude:: ../code/heap_base.h
+   :encoding: utf-8
+   :language: c
+   :linenos:

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/code.dir/avl_tree.c.o"
+  "CMakeFiles/code.dir/sssp.c.o"
   "code"
   "code.pdb"
 )

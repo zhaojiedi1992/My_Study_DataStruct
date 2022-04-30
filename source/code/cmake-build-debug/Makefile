@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-avl_tree.o: avl_tree.c.o
+sssp.o: sssp.c.o
 
-.PHONY : avl_tree.o
+.PHONY : sssp.o
 
 # target to build an object file
-avl_tree.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/avl_tree.c.o
-.PHONY : avl_tree.c.o
+sssp.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sssp.c.o
+.PHONY : sssp.c.o
 
-avl_tree.i: avl_tree.c.i
+sssp.i: sssp.c.i
 
-.PHONY : avl_tree.i
+.PHONY : sssp.i
 
 # target to preprocess a source file
-avl_tree.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/avl_tree.c.i
-.PHONY : avl_tree.c.i
+sssp.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sssp.c.i
+.PHONY : sssp.c.i
 
-avl_tree.s: avl_tree.c.s
+sssp.s: sssp.c.s
 
-.PHONY : avl_tree.s
+.PHONY : sssp.s
 
 # target to generate assembly for a file
-avl_tree.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/avl_tree.c.s
-.PHONY : avl_tree.c.s
+sssp.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sssp.c.s
+.PHONY : sssp.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... avl_tree.o"
-	@echo "... avl_tree.i"
-	@echo "... avl_tree.s"
+	@echo "... sssp.o"
+	@echo "... sssp.i"
+	@echo "... sssp.s"
 .PHONY : help
 
 
