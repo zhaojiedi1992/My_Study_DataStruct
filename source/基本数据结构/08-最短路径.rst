@@ -5,6 +5,8 @@
 参考
 `最短路径文章 <https://nullcode.fun/132.html>`_ 
 
+`bilibili的一个视频 <https://www.bilibili.com/video/BV1rz411v7f2?zw>`_ 
+
 基本结构和思想
 
 - dist[n] 表示起始点startN 到 具体第N个点的距离。 
@@ -28,7 +30,7 @@
 .. image:: ../imgs/sssp.png
 
 
-堆顺序存储实现
+dijskra算法
 ==========================================
 
 .. literalinclude:: ../code/sssp.c
@@ -36,3 +38,10 @@
    :language: c
    :linenos:
 
+floyd算法
+==========================================
+
+.. literalinclude:: ../code/floyd.c
+   :encoding: utf-8
+   :language: c
+   :linenos:

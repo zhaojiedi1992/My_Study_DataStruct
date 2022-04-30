@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/code.dir/sssp.c.o"
+  "CMakeFiles/code.dir/floyd.c.o"
   "code"
   "code.pdb"
 )

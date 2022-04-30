@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-sssp.o: sssp.c.o
+floyd.o: floyd.c.o
 
-.PHONY : sssp.o
+.PHONY : floyd.o
 
 # target to build an object file
-sssp.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sssp.c.o
-.PHONY : sssp.c.o
+floyd.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/floyd.c.o
+.PHONY : floyd.c.o
 
-sssp.i: sssp.c.i
+floyd.i: floyd.c.i
 
-.PHONY : sssp.i
+.PHONY : floyd.i
 
 # target to preprocess a source file
-sssp.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sssp.c.i
-.PHONY : sssp.c.i
+floyd.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/floyd.c.i
+.PHONY : floyd.c.i
 
-sssp.s: sssp.c.s
+floyd.s: floyd.c.s
 
-.PHONY : sssp.s
+.PHONY : floyd.s
 
 # target to generate assembly for a file
-sssp.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sssp.c.s
-.PHONY : sssp.c.s
+floyd.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/floyd.c.s
+.PHONY : floyd.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... sssp.o"
-	@echo "... sssp.i"
-	@echo "... sssp.s"
+	@echo "... floyd.o"
+	@echo "... floyd.i"
+	@echo "... floyd.s"
 .PHONY : help
 
 
