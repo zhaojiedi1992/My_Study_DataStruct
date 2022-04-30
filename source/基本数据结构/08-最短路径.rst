@@ -38,6 +38,8 @@ dijskra算法
    :language: c
    :linenos:
 
+.. image:: ../imgs/floyd.png
+
 floyd算法
 ==========================================
 

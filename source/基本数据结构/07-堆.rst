@@ -24,7 +24,7 @@
 堆顺序存储实现
 ==========================================
 
-.. literalinclude:: ../code/heap_base.h
+.. literalinclude:: ../code/heap_base.c
    :encoding: utf-8
    :language: c
    :linenos:
