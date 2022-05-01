@@ -123,32 +123,32 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-floyd.o: floyd.c.o
+sort.o: sort.c.o
 
-.PHONY : floyd.o
+.PHONY : sort.o
 
 # target to build an object file
-floyd.c.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/floyd.c.o
-.PHONY : floyd.c.o
+sort.c.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sort.c.o
+.PHONY : sort.c.o
 
-floyd.i: floyd.c.i
+sort.i: sort.c.i
 
-.PHONY : floyd.i
+.PHONY : sort.i
 
 # target to preprocess a source file
-floyd.c.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/floyd.c.i
-.PHONY : floyd.c.i
+sort.c.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sort.c.i
+.PHONY : sort.c.i
 
-floyd.s: floyd.c.s
+sort.s: sort.c.s
 
-.PHONY : floyd.s
+.PHONY : sort.s
 
 # target to generate assembly for a file
-floyd.c.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/floyd.c.s
-.PHONY : floyd.c.s
+sort.c.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/sort.c.s
+.PHONY : sort.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... floyd.o"
-	@echo "... floyd.i"
-	@echo "... floyd.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 .PHONY : help
 
 

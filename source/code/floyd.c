@@ -14,17 +14,6 @@ int n;
 
 
 
-int findMinDist(){
-    int minV = MaxV ;
-    for (int i = 0; i <n ; ++i) {
-        if (s[i]==0 && dist[i] <minV){
-            return i ;
-        }
-    }
-    return -1 ;
-}
-
-
 int Floyd()
 {
     // 根据邻接矩阵填充dist ,path
